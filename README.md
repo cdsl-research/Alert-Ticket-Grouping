@@ -3,6 +3,11 @@
 このスクリプトはCDSLで公開されている[redmine-tickets-create](https://github.com/cdsl-research/redmine-tickets-create)を改良したものです.</br>
 Redmineにアラートチケットを作成する際, 同名のアラートをグルーピングしてくれます.</br>
 
+# 環境
+Prometheus（2.53.1）
+Alertmanager （0.27.0）
+Redmine（6.0.4）
+
 # 導入
 ```
 git clone https://github.com/cdsl-research/Alert-Ticket-Grouping.git
