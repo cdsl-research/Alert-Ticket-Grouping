@@ -27,13 +27,7 @@ Receiving objects: 100% (43/43), 13.20 KiB | 13.20 MiB/s, done.
 Resolving deltas: 100% (22/22), done.
 ad@test:~$
 ```
-環境に応じて, app.py内のREDMINE_URL, API_KEY, PROJECT_ID, Track_IDを記入してください.
-```
-REDMINE_URL = os.environ['REDMINE_URL']
-API_KEY = os.environ['API_KEY']
-PROJECT_ID = os.environ['PROJECT_ID']
-Track_ID = os.environ['Track_ID']
-```
+使用中の環境に応じて, app.py内の`REDMINE_URL`, `API_KEY`, `PROJECT_ID`を記入してください.
 
 ## 説明
 同名、同ホストによるアラートの場合, 最初に作成されたチケットをルート（親）チケットとして、それ以降は子チケットとして登録されます.</br>
