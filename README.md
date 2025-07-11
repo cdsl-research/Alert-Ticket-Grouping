@@ -17,7 +17,7 @@ os</br>
 
 ## 導入
 ```
-git clone https://github.com/cdsl-research/Alert-Ticket-Grouping.git
+ad@test:~$ git clone https://github.com/cdsl-research/Alert-Ticket-Grouping.git
 Cloning into 'Alert-Ticket-Grouping'...
 remote: Enumerating objects: 43, done.
 remote: Counting objects: 100% (43/43), done.
