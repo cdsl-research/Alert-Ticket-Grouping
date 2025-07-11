@@ -1,7 +1,6 @@
 # Alert-Ticket-Grouping
 # 概要
-このスクリプトはCDSLで公開されている[redmine-tickets-create](https://github.com/cdsl-research/redmine-tickets-create)を改良したものです.</br>
-Redmineにアラートチケットを作成する際, 同名のアラートをグルーピングしてくれます</br>
+Redmineにアラートチケットを作成する際, Resolved判定を活用して同名のアラートをグルーピングしてくれます</br>
 
 ## 環境
 Python</br>
