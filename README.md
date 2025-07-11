@@ -8,6 +8,13 @@ Prometheus（2.53.1）</br>
 Alertmanager （0.27.0）</br>
 Redmine（6.0.4）</br>
 
+## Pythonライブラリ
+flask</br>
+requests</br>
+json</br>
+datetime</br>
+os</br>
+
 # 導入
 ```
 git clone https://github.com/cdsl-research/Alert-Ticket-Grouping.git
