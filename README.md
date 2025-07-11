@@ -18,7 +18,15 @@ os</br>
 
 ## 導入
 ```
-git clone https://github.com/cdsl-research/Alert-Ticket-Grouping.git
+c0117304@c0117304-test:~$ git clone https://github.com/cdsl-research/Alert-Ticket-Grouping.git
+Cloning into 'Alert-Ticket-Grouping'...
+remote: Enumerating objects: 43, done.
+remote: Counting objects: 100% (43/43), done.
+remote: Compressing objects: 100% (40/40), done.
+remote: Total 43 (delta 22), reused 6 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (43/43), 13.20 KiB | 13.20 MiB/s, done.
+Resolving deltas: 100% (22/22), done.
+c0117304@c0117304-test:~$
 ```
 環境に応じて, app.py内のREDMINE_URL, API_KEY, PROJECT_ID, Track_IDを記入してください.
 ```
