@@ -4,9 +4,9 @@
 Redmineにアラートチケットを作成する際, 同名のアラートをグルーピングしてくれます.</br>
 
 # 環境
-Prometheus（2.53.1）
-Alertmanager （0.27.0）
-Redmine（6.0.4）
+Prometheus（2.53.1）</br>
+Alertmanager （0.27.0）</br>
+Redmine（6.0.4）</br>
 
 # 導入
 ```
