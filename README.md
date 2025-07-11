@@ -3,6 +3,11 @@
 このスクリプトはCDSLで公開されている[redmine-tickets-create](https://github.com/cdsl-research/redmine-tickets-create)を改良したものです.</br>
 Redmineにアラートチケットを作成する際, 同名のアラートをグルーピングしてくれます.</br>
 
+# 導入
+```
+git clone https://github.com/cdsl-research/Alert-Ticket-Grouping.git
+```
+
 # 説明
 同名、同ホストによるアラートの場合, 最初に作成されたチケットをルート（親）チケットとして、それ以降は子チケットとして登録されます.</br>
 ```
