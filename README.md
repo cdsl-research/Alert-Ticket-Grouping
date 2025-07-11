@@ -13,6 +13,13 @@ Redmine（6.0.4）</br>
 git clone https://github.com/cdsl-research/Alert-Ticket-Grouping.git
 ```
 環境に応じて, REDMINE_URL, API_KEY, PROJECT_ID, Track_IDを記入してください.
+```
+REDMINE_URL = os.environ['REDMINE_URL']
+API_KEY = os.environ['API_KEY']
+PROJECT_ID = os.environ['PROJECT_ID']
+Track_ID = os.environ['Track_ID']
+```
+
 # 説明
 同名、同ホストによるアラートの場合, 最初に作成されたチケットをルート（親）チケットとして、それ以降は子チケットとして登録されます.</br>
 ```
