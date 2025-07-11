@@ -3,7 +3,7 @@
 このスクリプトはCDSLで公開されている[redmine-tickets-create](https://github.com/cdsl-research/redmine-tickets-create)を改良したものです.</br>
 Redmineにアラートチケットを作成する際, 同名のアラートをグルーピングしてくれます.</br>
 
-# 環境
+## 環境
 Prometheus（2.53.1）</br>
 Alertmanager （0.27.0）</br>
 Redmine（6.0.4）</br>
@@ -15,11 +15,11 @@ json</br>
 datetime</br>
 os</br>
 
-# 導入
+## 導入
 ```
 git clone https://github.com/cdsl-research/Alert-Ticket-Grouping.git
 ```
-環境に応じて, REDMINE_URL, API_KEY, PROJECT_ID, Track_IDを記入してください.
+環境に応じて, app.py内のREDMINE_URL, API_KEY, PROJECT_ID, Track_IDを記入してください.
 ```
 REDMINE_URL = os.environ['REDMINE_URL']
 API_KEY = os.environ['API_KEY']
@@ -27,7 +27,7 @@ PROJECT_ID = os.environ['PROJECT_ID']
 Track_ID = os.environ['Track_ID']
 ```
 
-# 説明
+## 説明
 同名、同ホストによるアラートの場合, 最初に作成されたチケットをルート（親）チケットとして、それ以降は子チケットとして登録されます.</br>
 ```
 [Alert] Server ICMP-Check instance:hoge (6/17 11:23) ←（ルートチケット）
